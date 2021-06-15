@@ -1,0 +1,5 @@
+services:
+    go:
+      image: cyradin/go:1.16
+      volumes:
+        - .:/home/user/app
